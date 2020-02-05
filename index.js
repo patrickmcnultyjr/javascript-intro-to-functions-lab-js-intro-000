@@ -20,13 +20,14 @@ function logShout(string){
    string = lowercase;
    console.log(lowercase)
  }
- switch sayHiToGrandma(string) {
-   case (string.toLowerCase === string):
-     console.log ("I can't hear you!");
-   break;
-   case (string.toUpperCase() === string):
-     console.log ("YES INDEED!");
-   break;
-   case (string === "I loveyou, Grandma."):
-     console.log ("I love you, too.");
+ function sayHiToGrandma(string) {
+   if (string.toLowerCase === string){
+     return ("I can't hear you!");
+   }
+  if (string.toUpperCase() === string){
+     return ("YES INDEED!");
+   }
+   if (string === "I loveyou, Grandma."){
+     return ("I love you, too.");
+   }
    }
