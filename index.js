@@ -18,12 +18,6 @@ function shout(string){
    return lowercase;
  }
 
- function logshout(string){
-   uppercase = string.toUppercase();
-   string = uppercase;
-   console.log(uppercase);
- }
-
  function logwhisper(string){
    lowercase = string.toLowerCase();
    string = lowercase;
