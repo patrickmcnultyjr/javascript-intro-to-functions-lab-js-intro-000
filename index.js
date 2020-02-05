@@ -20,7 +20,7 @@ function logShout(string){
    string = lowercase;
    console.log(lowercase)
  }
- switch (string) {
+ switch sayHiToGrandma(string) {
    case (string.toLowerCase === string):
      console.log ("I can't hear you!");
    break;
