@@ -1,4 +1,4 @@
-
+var uppercase, lowercase
 
 function logshout(string){
   console.log (uppercase);
