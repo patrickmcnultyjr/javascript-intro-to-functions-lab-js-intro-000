@@ -1,5 +1,5 @@
 function logshout(string) {
-  console.log toUpperCase(string);
+  console.log uppercase(string);
 }
 function shout(string) {
   return string.toUpperCase();
