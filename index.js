@@ -23,7 +23,7 @@ function shout(string){
 
  function sayHiToGrandma(string) {
    if (string.lowercase === string) {
-     console.log "I can't hear you!";
+     return "I can't hear you!";
    } else if ((string) === (string).toUpperCase){
      return "YES INDEED!";
    } else if ((string) === "I love you, Grandma."){
