@@ -27,7 +27,7 @@ function logShout(string){
    else if (string.toUpperCase() === string){
      return "YES INDEED!";
    }
-   elses (string === "I loveyou, Grandma."){
+   else (string === "I loveyou, Grandma."){
      return "I love you, too.";
    }
  }
