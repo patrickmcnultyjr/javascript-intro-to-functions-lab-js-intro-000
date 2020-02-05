@@ -1,6 +1,6 @@
 var uppercase, lowercase
 
-function logshout(uppercase){
+function logshout(string){
   console.log uppercase;
 }
 
