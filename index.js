@@ -7,12 +7,12 @@ function shout(string){
    return string.toLowerCase();
  }
 function logShout(string){
-  uppercase = string.toUpperCase()
+  uppercase = string.toUpperCase();
   string = uppercase;
   console.log(uppercase)
 }
  function logwhisper(string){
-   lowercase = string.toLowerCase()
+   lowercase = string.toLowerCase();
    string = lowercase;
    console.log(lowercase)
  }
