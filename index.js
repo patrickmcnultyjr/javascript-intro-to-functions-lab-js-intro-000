@@ -1,5 +1,12 @@
 var uppercase, lowercase
 
+function logshout(string){
+  uppercase = string.toUpperCase();
+  string = uppercase;
+  console.log (uppercase);
+}
+
+
 function shout(string){
   uppercase = string.toUpperCase();
   string = uppercase;
